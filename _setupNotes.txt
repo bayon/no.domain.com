@@ -1,0 +1,44 @@
+DIGITAL OCEAN:
+    One-Click-Apps 
+    wordpress on ubuntu 18 something...
+    NY 
+    cheapest server 
+EMAIL:
+    Droplet Name: wordpress-s-1vcpu-1gb-nyc1-01
+    IP Address: 157.230.54.236
+    Username: root
+    Password: c33d64eb56754bafcba386e50b -> bayonforte
+
+
+PERMISSIONS:
+to start there IS NO uploads folder...
+
+Now Set Up Wordpress Registration Process:
+WORDPRESS ADMIN:
+    no.domain.com
+    bforte 
+    bayonforte
+    bayon@forteworks.com 
+
+    --- NOW an uploads dir got created...
+    drwxr-xr-x 3 www-data www-data 4096 uploads
+
+GITHUB:
+    NOW, how to get this 'one-click-wp' set up as a git repo.
+    git remote add origin https://github.com/bayon/no.domain.com.git
+    git remote -v 
+    https://github.com/bayon/no.domain.com.git
+    git pull origin master --allow-unrelated-histories
+
+
+    so now the Digital Ocean Droplet is linked to github,
+    but my local dev is not yet.
+
+MYSQL MIGRATION:
+    installed WP Migrate DB
+    //localhost:8888/DigitalOcean/one-click-wordpress/no.domain.com/
+
+    /Applications/MAMP/htdocs/DigitalOcean/one-click-wordpress/no.domain.com
+    
+RESTRUCTURE WP-CONFIG:
+    https://jonsuh.com/blog/configure-wordpress-for-multiple-environments/
