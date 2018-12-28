@@ -34,4 +34,11 @@ GITHUB:
     so now the Digital Ocean Droplet is linked to github,
     but my local dev is not yet.
 
+MYSQL MIGRATION:
+    installed WP Migrate DB
+    //localhost:8888/DigitalOcean/one-click-wordpress/no.domain.com/
+
+    /Applications/MAMP/htdocs/DigitalOcean/one-click-wordpress/no.domain.com
     
+RESTRUCTURE WP-CONFIG:
+    https://jonsuh.com/blog/configure-wordpress-for-multiple-environments/
