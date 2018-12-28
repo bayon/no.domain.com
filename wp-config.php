@@ -5,12 +5,12 @@ $environments = array(
   'local'       => 'localhost:8888',
   'development' => 'development.website.com',
   'staging'     => 'staging.website.com',
-  'production'  => '157.230.54.236/'
+  'production'  => '157.230.54.236'
 );
 ///DigitalOcean/one-click-wordpress/no.domain.com/
 // Get the hostname
 $http_host = $_SERVER['HTTP_HOST'];
-//echo($http_host);
+echo($http_host);
 // Loop through $environments to see if there’s a match
 foreach($environments as $environment => $hostname) {
   if (stripos($http_host, $hostname) !== FALSE) {
