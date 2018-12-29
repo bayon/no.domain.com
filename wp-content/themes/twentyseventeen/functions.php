@@ -609,3 +609,13 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+
+ 
+add_action ('admin_init','add_sub_caps');
+
+function add_sub_caps() {
+	global $wp_roles;
+	$role = get_role('subscriber');
+	$role->add_cap('read_private_posts');
+}
