@@ -7,7 +7,7 @@ EMAIL:
     Droplet Name: wordpress-s-1vcpu-1gb-nyc1-01
     IP Address: 157.230.54.236
     Username: root
-    Password: c33d64eb56754bafcba386e50b -> bayonforte
+    Password: c33d64eb56754bafcba386e50b -> bayonforte -> forte123!@#
 
 
 PERMISSIONS:
